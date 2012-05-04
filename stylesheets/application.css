@@ -1,0 +1,19 @@
+html, body { height: 100%; background:white url(/images/background.jpg) no-repeat center center; }
+#shim { float:left; height:50%; margin-top:-150px; visibility:hidden; width:100%; }
+#site { clear:both; width:400px; height:300px; position:static; top:-150px;  margin:auto; }
+#content {padding:10px; margin-left:-10px; _margin-left:0; position:relative; width:100%; height:100%; background:lightgrey; }
+#tape { position:absolute; left:-60px; top:-50px; width:200px; height:158px; background:transparent url(/images/tape.png) no-repeat left top; _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/tape.png", sizingMethod="scale"); }
+#footer { text-align:right; color:#777; font-size:11px; padding-top:10px; }
+h1 { text-align:right; margin:5px 5px 20px 5px; letter-spacing:1px; word-spacing:5px; color:#555; font-family:monospace; font-size:30px; font-weight:bold; }
+h1 span { border-bottom:2px dashed; }
+p { font-size:16px; margin:0 0 12px 5px; color:#333; font-family:monospace; font-size:14px; }
+ul { position:absolute; bottom:0; margin:0 0 15px 20px; z-index:20; }
+li { float:left; list-style:none; margin-right:25px; }
+  li a { display:block; width:70px; height:70px; background-position:left top; background-repeat:no-repeat; background-color:transparent; opacity:0.8; text-indent:-9999px; cursor:pointer; }
+  li a.twitter { background-image:url(/images/twitter.png); _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/twitter.png", sizingMethod="scale"); }
+  li a.facebook { background-image:url(/images/facebook.png); _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/facebook.png", sizingMethod="scale"); }
+  li a.linkedin { background-image:url(/images/linkedin.png); _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/linkedin.png", sizingMethod="scale"); }
+  li a.email { background-image:url(/images/email.png); _background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/email.png", sizingMethod="scale"); }	  
+  li a:hover { opacity:1.0; }
+  a:focus { outline:0; }
+  
