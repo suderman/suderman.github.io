@@ -1,0 +1,12 @@
+body {
+  font-family: Verdana;
+  font-size: 10pt;
+  color: white;
+  background-color: black; }
+
+#site {
+  margin: 0 auto;
+  width: 980px; }
+
+#description {
+  margin: -100px 90px 0 120px; }
